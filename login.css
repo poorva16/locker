@@ -1,0 +1,64 @@
+@import url('http://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic');
+.container>.row{
+	margin-top: 200px;
+	}
+.input-field label{
+	color: white;
+}
+input[type=text], input[type="password"], input[type="email"]{
+	  border-bottom: 1px solid #1E907E;
+	  color: white;
+}
+.input-field input[type=text]:focus + label, .input-field input[type=email]:focus + label,.input-field input[type=password]:focus + label {
+     color: #fff;
+   }
+ 
+ #reg {
+  color: white;
+  font-family: roboto;
+  margin-left: 105px;
+  font-size: 25px;
+}
+#vr{
+  color: white;
+  border: 1px solid white;
+  opacity: 0.5;
+  margin-left: 435px;
+  width: 1px;
+  height: 440px;
+  margin-top: -461px;
+  box-shadow: 0px 1px 1px;
+}
+#login{
+	margin-top: 95px;
+}
+#login-container{
+	  height: 507px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#reg-container{
+	border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+#signin{
+	  margin-left: 185px;
+  font-size: 25px;
+  color: white;
+  font-family: roboto;
+}
+nav ul a {
+  margin-right: 20px;
+  margin-left: 27px;
+  margin-top: 5px;
+  }
+ nav{
+  	height: 75px;
+  }
+  .container{
+  	margin-top: -45px;
+  }
+ nav ul li:hover, nav ul li.active {
+  background-color: rgba(0,0,0,0.1);
+  height: 75px;
+}
